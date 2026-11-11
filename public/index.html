@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chat Agent</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">Chat Agent</div>
+      <button id="newChat" class="new-chat">+ New chat</button>
+      <div id="sessionList" class="session-list"></div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div id="sessionTitle" class="session-title">New chat</div>
+        <div class="badge">web search</div>
+      </header>
+      <div id="messages" class="messages"></div>
+      <form id="composer" class="composer">
+        <textarea id="input" rows="1" placeholder="Ask anything…"></textarea>
+        <button type="submit" id="send">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="/vendor/marked/marked.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

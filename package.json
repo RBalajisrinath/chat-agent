@@ -1,0 +1,31 @@
+{
+  "name": "chat-agent-web-search",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ai": "6.0.330",
+    "@ai-sdk/openai": "3.0.60",
+    "@ai-sdk/anthropic": "3.0.60",
+    "@ai-sdk/google": "3.0.60",
+    "express": "5.3.0",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "zod": "3.25.76",
+    "chrono-node": "2.7.7",
+    "cheerio": "1.0.0-rc.12",
+    "uuid": "11.0.3",
+    "marked": "15.0.4"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "tsx": "4.19.2",
+    "@types/express": "5.0.0",
+    "@types/cors": "2.8.17",
+    "@types/node": "22.10.2"
+  }
+}
